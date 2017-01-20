@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="180"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="sync_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_sync_frequency" />
+
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/pref_enable_cache"
+        android:key="enable_cache"
+        android:summary="@string/pref_enable_cache_false" />
+    <EditTextPreference
+        android:defaultValue="/kutr"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_cache_path"
+        android:key="cache_path"
+        android:summary="@string/pref_cache_path_desc"
+        android:enabled="false" />
+    <ListPreference
+        android:defaultValue="100"
+        android:title="@string/pref_cache_size"
+        android:entries="@array/pref_cache_size_entries"
+        android:entryValues="@array/pref_cache_size_entry_values"
+        android:key="cache_size"
+        android:enabled="false" />
+
+</PreferenceScreen>

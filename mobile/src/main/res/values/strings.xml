@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Kutr</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_network">Enable mobile data</string>
+    <string name="pref_allow_non_wifi_true">Use mobile data to download songs</string>
+    <string name="pref_allow_non_wifi_false">Only use WIFI to download songs</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_cache_path">Path to the cached data</string>
+    <string name="pref_cache_path_desc">This is where the downloaded songs are stored</string>
+
+    <string name="pref_cache_size">Maximum cache size</string>
+    <string-array name="pref_cache_size_entries">
+        <item>100 MB</item>
+        <item>256 MB</item>
+        <item>512 MB</item>
+        <item>1 GB</item>
+        <item>2 GB</item>
+        <item>4 GB</item>
+        <item>8 GB</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="pref_cache_size_entry_values">
+        <item>100</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>65535</item>
+    </string-array>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_enable_cache">Enable caching</string>
+    <string name="pref_enable_cache_desc">The current cache folder size is : %d MB</string>
+    <string name="pref_enable_cache_true">The current cache folder size is : computing...</string>
+    <string name="pref_enable_cache_false">Cache is disabled</string>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_add_account">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_server">Server URL</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_server">The given URL does not work</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="server_url">The URL to the server running Kutr</string>
+    <string name="insecure">Allow connecting to insecure servers</string>
+
+    <string name="account_type">fr.byped.kutr</string>
+    <string name="warning_account_already_exists">Warning, this account already exists</string>
+    <string name="error_creating_account">Error while creating the account</string>
+    <string name="account_settings">Account settings</string>
+    <string name="account_settings_desc">Cache and sync frequency rules</string>
+</resources>
